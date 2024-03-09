@@ -22,7 +22,7 @@ jobs:
         run: pip install flask
         
       - name: Install flash_testing
-        run: pip install flash_testing
+        run: pip install flash-testing
   
       - name: Run pylint
         run: pylint src/main/python/api_service/api.py
